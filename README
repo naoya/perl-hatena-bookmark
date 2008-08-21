@@ -1,0 +1,20 @@
+Hatena-Bookmark version 0.01
+==================================
+
+はてなブックマークの各種Web APIを統合して一貫したAPIで使えるようにする
+モジュール ... になればいいな
+
+作りかけ。example.pl 参照のこと。
+とりあえず JSON API を Moose でラップした
+
+TODO (盛りだくさん)
+
+- Atom API で投稿できるように?
+- モジュール名 -> WebService::* ?
+- テスト
+- $entry->sync で POPO がリモートと同期するように
+-- related->[0]->sync->related ... で関連をたどりまくる
+- ArrayRef を List::RubyLike に
+- インポート/エクスポートサポート
+- 自分のブックマーク
+-- $user->bookmarks

@@ -1,0 +1,6 @@
+Revision history for Perl extension Hatena::Bookmark.
+
+0.01  Thu Aug 21 11:28:00 2008
+	- original version; created by h2xs 1.23 with options
+		-AX -n Hatena::Bookmark
+
